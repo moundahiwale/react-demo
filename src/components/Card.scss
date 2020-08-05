@@ -1,0 +1,19 @@
+$base-spacing:0.1rem;
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.card {
+    border: $base-spacing solid gray;
+    border-radius: 0.25rem;
+    width: 32%;
+    margin: $base-spacing;
+    padding: $base-spacing;
+}
+
+label {
+    font-weight: bold;
+}
